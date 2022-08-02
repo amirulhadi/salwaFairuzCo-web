@@ -1,10 +1,12 @@
-
+import React from 'react';
+import Homepage from './views/Home'
 
 function App() {
   return (
-    <h1 className="text-3xl text-center font-bold underline">
-    Hello world!s
-  </h1>
+    <>
+    <Homepage></Homepage>
+    </>
+    
   );
 }
 
