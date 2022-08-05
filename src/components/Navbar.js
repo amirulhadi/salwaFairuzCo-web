@@ -24,12 +24,16 @@ function Nav() {
                   alt="Workflow"
                 />
               </div> */}
-               <div className="flex-shrink-0" style={logoImg}>
+               <div className="flex-shrink-0 hidden md:block" style={logoImg}>
+               <a
+                    href="/"
+                    className=" hover text-white px-3 py-2 rounded-md text-sm font-medium"
+                  />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#"
+                    href="/About"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About Us

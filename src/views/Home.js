@@ -15,7 +15,8 @@ import logo6 from '../assets/ClientLogo/logo6.jpg'
 import logo7 from '../assets/ClientLogo/logo7.jpg'
 import logo8 from '../assets/ClientLogo/logo8.png'
 import logo9 from '../assets/ClientLogo/logo9.png'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import homeBanner from "../assets/home_banner.jpg"
 
 export default function Home () {
     const bgImageCover = {
@@ -109,44 +110,44 @@ export default function Home () {
     return (
         <>
             <Navbar></Navbar>
-            <Banner></Banner>
+            <Banner image={homeBanner} title="Finance" titlerow2="Audit Firm" desc="Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
+            </Banner>
             <div className='container px-16 mx-auto'>
             <div>
                 <h2 className='text-3xl uppercase font-bold text-center pt-10'>Everything is possible with us</h2>
                 {/* <div className='grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden px-4 py-8'> */}
                 <div className = 'columns-4 px-2 py-8'>
-                <div class="flex items-center justify-center bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className='pb-3'>
-                        <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clip-rule="evenodd" />
-                    </svg>
-                    <div class="pb-5">
+                <div className="flex items-center justify-center bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div className="pb-5">
                         <h2 className='text-l text-center font-bold'>Accounting Outsourcing</h2>
                         <p className='text-sm text-center'>Monthly, Quarterly, Half Yearly, and Yearly Accounting Outsourcing Services</p>
                     </div>
                 </div>
-                <div class=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="flex items-center" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clip-rule="evenodd" />
+                <div className=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="flex items-center" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clipRule="evenodd" />
                         </svg> */}
-                    <div class="pb-5">
+                    <div className="pb-5">
                         <h2 className='text-l text-center font-bold'>Tax Consultancy</h2>
                         <p className='text-sm text-center'>Corporate Tax, Personal Tax Compliance, and Planning Outsourcing Services</p>
                     </div>
                 </div>
-                <div class=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="flex items-center" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clip-rule="evenodd" />
+                <div className=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="flex items-center" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clipRule="evenodd" />
                         </svg> */}
-                    <div class="pb-5">
+                    <div className="pb-5">
                         <h2 className='text-l text-center font-bold'>Financial Consultancy</h2>
                         <p className='text-sm text-center'>Financial Advices on Tax, Planning, Investment and Insurance decisions</p>
                     </div>
                 </div>
-                <div class=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="flex items-center" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clip-rule="evenodd" />
+                <div className=" bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="flex items-center" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 011 1v3a1 1 0 11-2 0v-3a1 1 0 011-1zm-3 3a1 1 0 100 2h.01a1 1 0 100-2H10zm-4 1a1 1 0 011-1h.01a1 1 0 110 2H7a1 1 0 01-1-1zm1-4a1 1 0 100 2h.01a1 1 0 100-2H7zm2 1a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm4-4a1 1 0 100 2h.01a1 1 0 100-2H13zM9 9a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zM7 8a1 1 0 000 2h.01a1 1 0 000-2H7z" clipRule="evenodd" />
                         </svg> */}
-                    <div class="pb-5">
+                    <div className="pb-5">
                         <h2 className='text-l text-center font-bold'>SST Consultancy</h2>
                         <p className='text-sm text-center'>Sales and Service Tax Registration, Filing, Implementation and Advice Services</p>
                     </div>
