@@ -40,7 +40,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="ProductSvc"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Product / Services
@@ -54,7 +54,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/Career"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Career

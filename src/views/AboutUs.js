@@ -93,11 +93,27 @@ export default function AboutUs () {
                 <h1 className='text-3xl uppercase font-bold text-center pb-10'>Meet The Team</h1>
             </div>
 
-            <div className='gap-0 columns-4 pt-5 pb-10'>
-                <img src={team1}/>
-                <img src={team2}/>
-                <img src={team3}/>
-                <img src={team4}/>
+            <div className='gap-0 columns-4 pt-5 pb-10 '>
+                <div className='relative bg-gradient-to-r from-black'>
+                    <img src={team1} className='brightness-100 opacity-60' />
+                    <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        Name 1</h1>
+                </div>
+                <div className='relative bg-gradient-to-r from-black'>
+                    <img src={team2} className='brightness-100 opacity-60' />
+                    <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        Name 2</h1>
+                </div>
+                <div className='relative bg-gradient-to-r from-black'>
+                    <img src={team3} className='brightness-100 opacity-60' />
+                    <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        Name 3</h1>
+                </div>
+                <div className='relative bg-gradient-to-r from-black'>
+                    <img src={team4} className='brightness-100 opacity-60' />
+                    <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        Name 4</h1>
+                </div>
             </div>
         </div>
         <Footer></Footer>
