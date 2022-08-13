@@ -210,64 +210,64 @@ export default function Home () {
                     PageMaker including versions of Lorem Ipsum.
                 </p>
                 <div className='px-16 pb-20'>
-                    <div className='flex items-start h-40 w-30 rounded mb-2'>
+                    <div className='flex items-start h-40 w-30 rounded mb-10 mt-5'>
                         <div className='h-40 w-40'>
                             <div className='rounded-full h-40 w-30' style={bgP1}></div>
                         </div>
                         <div className='h-40 w-50'>
                         <div className='flex flex-col pt-8 px-10 '>
-                            <p className='pb-2'>Your name is awesome bin your father is awesome</p>
-                            <p className='pb-2'>Managing Director</p>
-                            <p className='pb-2'>https://my.linkedin.com/in/mustafa-kamal-31095129</p>
+                            <p className='pb-2'>Name</p>
+                            <p className='pb-2'>Position</p>
+                            <p className='pb-2'>linkedin link</p>
                         </div>
                         </div>
                     </div>
 
-                    <div className='flex flex-row-reverse h-40 w-30 rounded mb-2'>
+                    <div className='flex items-start h-40 w-30 rounded mb-10'>
                         <div className='h-40 w-40'>
                             <div className='rounded-full h-15 w-15' style={bgP2}></div>
                         </div>
                         <div className='h-40 w-50'>
                         <div className='flex flex-col pt-8 px-10 '>
-                            <p className='pb-2'>Your name is awesome bin your father is awesome</p>
-                            <p className='pb-2'>Managing Director</p>
-                            <p className='pb-2'>https://my.linkedin.com/in/mustafa-kamal-31095129</p>
+                            <p className='pb-2'>Name</p>
+                            <p className='pb-2'>Position</p>
+                            <p className='pb-2'>linkedin link</p>
                         </div>
                         </div>
                     </div>
 
-                    <div className='flex items-start h-40 w-30 rounded  mb-2'>
+                    <div className='flex items-start h-40 w-30 rounded'>
                         <div className='h-40 w-40'>
                             <div className='rounded-full h-40 w-40' style={bgP3}></div>
                         </div>
                         <div className='h-40 w-50'>
                         <div className='flex flex-col pt-8 px-10 '>
-                            <p className='pb-2'>Your name is awesome bin your father is awesome</p>
-                            <p className='pb-2'>Managing Director</p>
-                            <p className='pb-2'>https://my.linkedin.com/in/mustafa-kamal-31095129</p>
+                            <p className='pb-2'>Name</p>
+                            <p className='pb-2'>Position</p>
+                            <p className='pb-2'>linkedin link</p>
                         </div>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>Our Clients</h2>
-                    <div className='px-16 pb-10'>
+                    <h2 className='text-3xl uppercase font-bold text-center pb-10'>Our Clients</h2>
+                    <div className='px-16'>
                         <div className='flex items-start justify-center h-50 w-50'>
-                        <div className='gap-8 columns-5'>
-                            <div className='' style={clientLogo}></div>
-                            <div className='' style={clientLogo2}></div>
-                            <div className='' style={clientLogo3}></div>
-                            <div className='' style={clientLogo4}></div>
-                            <div className='' style={clientLogo5}></div>
+                        <div className='gap-4 columns-5'>
+                            <div className='px-3' style={clientLogo}></div>
+                            <div className='px-3' style={clientLogo2}></div>
+                            <div className='px-3' style={clientLogo3}></div>
+                            <div className='px-3' style={clientLogo4}></div>
+                            <div className='px-3' style={clientLogo5}></div>
                         </div>
                         </div>
-                        <div className='flex items-start justify-center h-96 w-50 pb-10'>
-                        <div className='gap-8 columns-4'>
-                            <div className='' style={clientLogo6}></div>
-                            <div className='' style={clientLogo7}></div>
-                            <div className='' style={clientLogo8}></div>
-                            <div className='' style={clientLogo9}></div>
+                        <div className='flex items-start justify-center h-96 w-50'>
+                        <div className='gap-4 columns-4'>
+                            <div className='px-3' style={clientLogo6}></div>
+                            <div className='px-3' style={clientLogo7}></div>
+                            <div className='px-3' style={clientLogo8}></div>
+                            <div className='px-3' style={clientLogo9}></div>
                         </div>
 
                         </div>

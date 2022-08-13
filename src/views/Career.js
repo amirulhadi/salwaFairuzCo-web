@@ -67,7 +67,7 @@ export default function Career () {
                 </button>
             </form>
 
-            <img src={careerDesc2} />
+            <img src={careerDesc2} className='h-1/2' />
             </div>
             </div>
         </div>

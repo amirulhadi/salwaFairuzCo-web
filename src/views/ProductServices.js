@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import productHead from '../assets/Product_header.jpg'
 import Package from '../components/PackageAcc';
 import PackageLLP from '../components/PackageLLP';
+import PackageSST from '../components/PackageSST';
 
 export default function ProductServices () {
  const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -40,12 +41,12 @@ export default function ProductServices () {
         {
             label: 'SST',
             content:
-              'FuDSDSnt aute. Ullamco voluptate consectetur dolor officia sunt est dolor sint.',
+              <PackageSST/>
           },
           {
             label: 'Tax',
             content:
-              'FuDSDSnt aute. Ullamco voluptate consectetur dolor officia sunt est dolor sint.',
+              'Under Construction',
           },
       ]
     return (
@@ -80,7 +81,7 @@ export default function ProductServices () {
 
             <div className='pt-5 pb-20'>
                 <div className="flex flex-center justify-center mb-4 border-b border-gray-200 dark:border-gray-700 relative">
-                    <div className="flex space-x-3 border-b">
+                    <div className="flex space-x-8 border-b">
                     {tabsData.map((tab, idx) => {
                         return (
                         <button

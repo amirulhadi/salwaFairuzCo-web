@@ -18,7 +18,7 @@ export default function AboutUs () {
         <div className='container px-16 mx-auto'>
             <div className='gap-8 columns-2 pt-20 pb-20'>
                 <div className='bg-grey-200'>
-                    <img src={aboutdesc} alt="imageAbout"/>
+                    <img src={aboutdesc} className='h-1/2' alt="imageAbout"/>
                     <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
                     <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

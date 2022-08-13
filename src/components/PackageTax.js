@@ -1,7 +1,7 @@
 import React from 'react';
 import {CheckIcon, InformationCircleIcon} from '@heroicons/react/solid'
 
-export default function PackageSST () {
+export default function PackageTax () {
     return (
         <>
             <div className='w-30 h-auto pb-20 rounded-md bg-slate-100'>
