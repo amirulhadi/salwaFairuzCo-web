@@ -9,7 +9,7 @@ function Footer () {
       <span>Get connected with us on social networks:</span>
     </div>
     <div className="flex justify-center">
-      <a href="https://www.facebook.com/SFCfarmse/" className="mr-6 text-white">
+      <a href="https://www.facebook.com/SFCfarmse/" className="mr-6 text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
           className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
@@ -18,7 +18,7 @@ function Footer () {
           </path>
         </svg>
       </a>
-      <a href="#!" className="mr-6 text-white">
+      <a href="#!" className="mr-6 text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
           className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path fill="currentColor"
@@ -26,7 +26,7 @@ function Footer () {
           </path>
         </svg>
       </a>
-      <a href="#!" className="mr-6 text-white">
+      <a href="#!" className="mr-6 text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
           className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
           <path fill="currentColor"
@@ -34,7 +34,7 @@ function Footer () {
           </path>
         </svg>
       </a>
-      <a href="https://www.instagram.com/SFCfarmse/" className="mr-6 text-white">
+      <a href="https://www.instagram.com/SFCfarmse/" className="mr-6 text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
           className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
@@ -42,7 +42,7 @@ function Footer () {
           </path>
         </svg>
       </a>
-      <a href="#!" className="mr-6 text-white">
+      <a href="#!" className="mr-6 text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
           className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">
@@ -51,7 +51,7 @@ function Footer () {
           </path>
         </svg>
       </a>
-      <a href="#!" className="text-white">
+      <a href="#!" className="text-white" target="_blank" rel="noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
           className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
           <path fill="currentColor"
@@ -91,16 +91,16 @@ function Footer () {
           Products
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-white">Accounting Services</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Accounting Services</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-white">LLP / PLT Services & Fees</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">LLP / PLT Services & Fees</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-white">Tax Services</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Tax Services</a>
         </p>
         <p>
-          <a href="#!" className="text-white">SST</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">SST</a>
         </p>
       </div>
       <div className="">
@@ -108,16 +108,16 @@ function Footer () {
           Useful links
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-white">Pricing</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Pricing</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-white">Settings</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Settings</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-white">Orders</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Orders</a>
         </p>
         <p>
-          <a href="#!" className="text-white">Help</a>
+          <a href="#!" className="text-white" target="_blank" rel="noreferrer">Help</a>
         </p>
       </div>
       <div className="">
