@@ -6,6 +6,7 @@ import Home from './views/Home';
 import ProductSvc from './views/ProductServices'
 import Career from './views/Career';
 import Contact from './views/ContactUs';
+import Bulletin from './views/Bulletin';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="ProductSvc" element={<ProductSvc/>}/>
         <Route path="Career" element={<Career/>}/>
         <Route path="Contact" element={<Contact/>}/>
+        <Route path="Bulletin" element={<Bulletin/>}/>
       </Routes>
     </div>
     
