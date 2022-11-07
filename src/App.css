@@ -1,3 +1,10 @@
 .grey-bg{
     background-color: 	#F8F8F8;
 }
+
+.svg-size{
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+}

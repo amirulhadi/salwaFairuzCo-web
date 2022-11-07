@@ -19,7 +19,7 @@ export default function Career () {
                     <h2 className='text-4xl text-center font-bold uppercase'>Expand Your Career With Us</h2>
                 </div>
             </div>
-            <div className='gap-8 columns-2 pt-5 pb-20'>
+            <div className='grid grid-cols-2 gap-8 pt-5 pb-20'>
 
                 <div className='bg-grey-200'>
                     <img src={careerDesc} alt="imageAbout"/>
@@ -31,8 +31,7 @@ export default function Career () {
                     embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
                     predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary
                     of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
-                    which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected
-                    humour, or non-characteristic words etc.
+                    which looks reasonable.
                     </p>
                     <p className='font-bold pt-8'>Global Exposure</p>
                     <p className='pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -45,10 +44,10 @@ export default function Career () {
                 </div>
             </div>
 
-            <div className='gap-8 columns-2 pt-5 pb-20'>
+            <div className='grid grid-cols-2 gap-8 pt-5 pb-20'>
             <div>
                     <p className='font-bold text-3xl'>Lets Work Together</p>
-                    <p className='pt-10 pb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p className='pt-2 pb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
                     took a galley of type and scrambled it to make a type specimen book. It has survived not only five
                     centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -78,8 +77,9 @@ export default function Career () {
                     SUBMIT        
                 </button>
             </form>
-
-            <img src={careerDesc2} className='h-1/2' />
+            </div>
+            <div>
+            <img src={careerDesc2}  />
             </div>
             </div>
         </div>

@@ -16,18 +16,12 @@ export default function AboutUs () {
         <Navbar></Navbar>
         <Banner image={aboutUsHead} title="ABOUT US" titlerow2="" desc=""></Banner>
         <div className='container px-16 mx-auto'>
-            <div className='gap-8 columns-2 pt-20 pb-20'>
+            <div className='grid grid-cols-2 gap-8  pt-20 pb-20'>
                 <div className='bg-grey-200'>
-                    <img src={aboutdesc} className='h-1/2' alt="imageAbout"/>
+                    <img src={aboutdesc} className="" alt="imageAbout"/>
+                </div>
+                <div>
                     <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
-                    <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                        including versions of Lorem Ipsum.
-                    </p>
                     <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
