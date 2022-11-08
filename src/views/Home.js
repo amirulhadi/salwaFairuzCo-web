@@ -49,29 +49,31 @@ export default function Home () {
     const clientLogo = {
         backgroundImage: `url("${logo1}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
-        backgroundRepeat: 'no-repeat'
+        width: '200px',
+        height: '200px',
+        backgroundRepeat: 'no-repeat',
+        //backgroundPosition: 'center center'
     }
     const clientLogo2 = {
         backgroundImage: `url("${logo2}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
-        backgroundRepeat: 'no-repeat'
+        width: '160px',
+        height: '160px',
+        backgroundRepeat: 'no-repeat',
+        //backgroundPosition: 'center center'
     }
     const clientLogo3 = {
         backgroundImage: `url("${logo3}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
-        backgroundRepeat: 'no-repeat'
+        width: '160px',
+        height: '160px',
+        //backgroundRepeat: 'no-repeat'
     }
     const clientLogo4 = {
         backgroundImage: `url("${logo4}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '200px',
+        height: '200px',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo5 = {
@@ -166,9 +168,9 @@ export default function Home () {
                 </div>
             </div>
 
-            <div>
+            <div className='inverse bg-full'>
                 <div className='px-2 py-8'>
-                    <h2 className='text-xl text-center font-bold uppercase'>Our Vision</h2>
+                    <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-2'>Our Vision</h2>
                     <p className='text-sm text-center pt-4 px-8'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -192,7 +194,7 @@ export default function Home () {
                 style = {bgImageCover}>
             </div>
 
-            <div>
+            <div className='inverse bg-full'>
                 <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-2'>Meet The Leaders</h2>
                 <p className='text-sm text-center pt-2 px-8 pb-6'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -203,8 +205,8 @@ export default function Home () {
                     PageMaker including versions of Lorem Ipsum.
                 </p>
                 <div className='px-16 pb-20'>
-                    <div className='grid grid-cols-3 gap-4 h-40 w-30 rounded mb-10 mt-5 pb-10 pl-10'>
-                        <div className='flex justify-center h-40 w-40'>
+                    <div className='grid grid-cols-3 gap-4 h-40 w-30 rounded mb-10 mt-5 pb-10'>
+                        <div className='flex flex-col h-40 w-40'>
                             <div className='rounded-full h-40 w-30' style={bgP1}></div>
                         </div>
                         <div className='h-40 w-40'>
@@ -213,54 +215,47 @@ export default function Home () {
                         <div className='h-40 w-40'>
                             <div className='rounded-full h-40 w-40' style={bgP3}></div>
                         </div>
-                        <div className='text-center py-10'>
-                        <div className='flex flex-col '>
-                            <p className='pl-5 pb-2'>Dr. Fairuz</p>
-                            <p className='pl-5 pb-2'>Managing Director</p>
+                        <div className='flex flex-col'>
+                            <p className='pb-2'>Dr. Fairuz</p>
                             <hr/>
+                            <p className='pt-2 pb-2'>Managing Director</p>
+                            
                         </div>
+                        <div className='flex flex-col'>
+                            <p className='pb-2'>Dr. Salwa</p>
+                            <hr/>
+                            <p className='pt-2 pb-2'>Director</p>
+                            
                         </div>
-                        <div className='h-40 w-50'>
-                        <div className='flex flex-col pt-8 px-10 '>
-                            <p className='pb-2'>Name</p>
-                            <p className='pb-2'>Position</p>
-                            <p className='pb-2'>linkedin link</p>
-                        </div>
-                        </div>
-                        <div className='h-40 w-50'>
-                        <div className='flex flex-col pt-8 px-10 '>
-                            <p className='pb-2'>Name</p>
-                            <p className='pb-2'>Position</p>
-                            <p className='pb-2'>linkedin link</p>
-                        </div>
+                        <div className='flex flex-col'>
+                            <p className='pb-2'>Unknown</p>
+                            <hr/>
+                            <p className='pt-2 pb-2'>Unknown</p>
+                            
                         </div>
                     </div>
                 </div>
+                </div>
 
                 <div>
-                    <h2 className='text-3xl uppercase font-bold text-center pb-10 pt-10 mt-10'>Our Clients</h2>
-                    <div className='px-16'>
-                        <div className='flex items-start justify-center h-50 w-50'>
-                        <div className='gap-4 columns-5'>
-                            <div className='px-3' style={clientLogo}></div>
-                            <div className='px-3' style={clientLogo2}></div>
-                            <div className='px-3' style={clientLogo3}></div>
-                            <div className='px-3' style={clientLogo4}></div>
-                            <div className='px-3' style={clientLogo5}></div>
-                        </div>
-                        </div>
-                        <div className='flex items-start justify-center h-96 w-50'>
-                        <div className='gap-4 columns-4'>
-                            <div className='px-3' style={clientLogo6}></div>
-                            <div className='px-3' style={clientLogo7}></div>
-                            <div className='px-3' style={clientLogo8}></div>
-                            <div className='px-3' style={clientLogo9}></div>
-                        </div>
-
+                    <div className='text-3xl uppercase font-bold text-center pt-10 pb-10'>Our Clients</div>
+                    <div className='px-16 py-10'>
+                        <div className='grid grid-cols-4 gap-3'>
+                            <div style={clientLogo}></div>
+                            <div style={clientLogo2}></div>
+                            {/* <div style={clientLogo3}></div> */}
+                            <div style={clientLogo9}></div>
+                            <div  style={clientLogo4}></div>
+                            <div  style={clientLogo5}></div>
+                            <div style={clientLogo6}></div>
+                            <div  style={clientLogo7}></div>
+                            <div style={clientLogo8}></div>
+                           
                         </div>
                     </div>    
                 </div>
 
+            <div className='inverse bg-full'>
                 <div className='px-16 pb-20'>
                 <h2 className='text-3xl uppercase font-bold text-center pb-10'>What Our Clients Say</h2>
                 <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">

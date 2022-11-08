@@ -8,3 +8,13 @@
     width: 100%;
     padding-left: 100px;
 }
+
+.bg-full{
+    box-shadow: 0 0 0 100vmax #704DB5;
+    clip-path: inset(0 -100vmax);
+}
+
+.inverse{
+    background-color: #704DB5;
+    color: #efefef;
+}
