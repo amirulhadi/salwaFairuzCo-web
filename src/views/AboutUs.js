@@ -8,18 +8,27 @@ import team1 from '../assets/team1.jpg';
 import team2 from '../assets/team2.jpg';
 import team3 from '../assets/team3.jpg';
 import team4 from '../assets/team4.jpg';
+import SalwaAbout from '../assets/Salwa_about.jpg'
 
 export default function AboutUs () {
+    
 
     return (
         <>
         <Navbar></Navbar>
         <Banner image={aboutUsHead} title="ABOUT US" titlerow2="" desc=""></Banner>
         <div className='container px-16 mx-auto'>
-            <div className='grid grid-cols-2 gap-8  pt-20 pb-20'>
-                <div className='bg-grey-200'>
-                    <img src={aboutdesc} className="" alt="imageAbout"/>
+            <div className='grid grid-cols-2 gap-4  pt-20 pb-20'>
+                <div className='grid grid-cols-2 gap-4 bg-grey-200'>
+                    <div>
+                        <img src={aboutdesc} className="" alt="imageAbout"/>
+                    </div>
+                    <div className='bg-grey-200 relative'>
+                        <img src={SalwaAbout} className="absolute bottom-0 right-0" alt="imageAbout"/>
+                    </div>
+                    
                 </div>
+                
                 <div>
                     <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
                     <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -40,11 +49,41 @@ export default function AboutUs () {
                     </p>
                 </div>
             </div>
+
+            <div className='inverse bg-full p-10 mb-20'>
+                <div className='px-2 py-8'>
+                    <div className='grid grid-cols-4 gap-4'>
+                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>20+</h2></div>
+                            <div><p className='text-center text-xl'>Years Experience</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>35+</h2></div>
+                            <div><p className='text-center text-xl'>Awards Win</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>1750+</h2></div>
+                            <div><p className='text-center text-xl'>Happy Customers</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>120+</h2></div>
+                            <div><p className='text-center text-xl'>Our Experts Staff</p></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className='grid grid-cols-2 gap-4'>
+                <div>
+                    <h1>"Our work does make sen"</h1>
+                </div>
+            </div>
             
             <div>
                 <h1 className='text-3xl uppercase font-bold text-center pb-10'>Our Services</h1>
             </div>
-            <div className='px-16 pb-10 bg-gray-200 mb-5'>
+            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
                 <h1 className='font-bold text-xl pt-8 pb-10'>Accounting Services</h1>
                 <p className='text-l pb-5'>It is a long established fact that a reader will be 
                 distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
@@ -57,7 +96,7 @@ export default function AboutUs () {
                 <p className='font-bold' >READ MORE</p>
             </div>
 
-            <div className='px-16 pb-10 bg-gray-200 mb-5'>
+            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
                 <h1 className='font-bold text-xl pt-8 pb-10'>LLP / PLT Services & Fees</h1>
                 <p className='text-l pb-5'>It is a long established fact that a reader will be 
                 distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
@@ -70,7 +109,7 @@ export default function AboutUs () {
                 <p className='font-bold' >READ MORE</p>
             </div>
 
-            <div className='px-16 pb-10 bg-gray-200 mb-5'>
+            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
                 <h1 className='font-bold text-xl pt-8 pb-10'>Tax Services</h1>
                 <p className='text-l pb-5'>It is a long established fact that a reader will be 
                 distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
@@ -83,7 +122,7 @@ export default function AboutUs () {
                 <p className='font-bold' >READ MORE</p>
             </div>
 
-            <div>
+            <div className='pt-10'>
                 <h1 className='text-3xl uppercase font-bold text-center pb-10'>Meet The Team</h1>
             </div>
 

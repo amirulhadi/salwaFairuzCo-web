@@ -119,10 +119,13 @@ export default function Home () {
             when an unknown printer took a galley of type and scrambled it to make a type specimen book." buttonName="Get a Quote" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
             </Banner>
             <div className='container px-16 mx-auto'>
-            <div>
-                <h2 className='text-6xl sm:text-5xl uppercase font-bold text-center pt-10 mb-10'>Together Far More Better</h2>
+            <div >
+                <div className='inverse bg-full pb-10'>
+                <h2 className='text-6xl sm:text-5xl uppercase font-bold text-center pt-10'>Together Far More Better</h2>
                 <p className='text-center'>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
                 {/* <div className='grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden px-4 py-8'> */}
+
+                </div>
 
                 <div className="grid grid-cols-3 gap-4 mt-20">
                     <div className='col-span-2'>
@@ -170,7 +173,7 @@ export default function Home () {
 
             <div className='inverse bg-full'>
                 <div className='px-2 py-8'>
-                    <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-2'>Our Vision</h2>
+                    <h2 className='text-3xl uppercase font-bold text-center pb-2'>Our Vision</h2>
                     <p className='text-sm text-center pt-4 px-8'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -190,7 +193,7 @@ export default function Home () {
                 </div>
             </div>
             <div
-                className='bg-slate-700 text-white bg-center px-2 py-48'
+                className='bg-slate-700 text-white bg-center px-2 py-48 mb-10 mt-10'
                 style = {bgImageCover}>
             </div>
 
@@ -257,7 +260,7 @@ export default function Home () {
 
             <div className='inverse bg-full'>
                 <div className='px-16 pb-20'>
-                <h2 className='text-3xl uppercase font-bold text-center pb-10'>What Our Clients Say</h2>
+                <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>What Our Clients Say</h2>
                 <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
                 <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                     <button
