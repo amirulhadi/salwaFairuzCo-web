@@ -240,25 +240,7 @@ export default function Home () {
                 </div>
                 </div>
 
-                <div>
-                    <div className='text-3xl uppercase font-bold text-center pt-10 pb-10'>Our Clients</div>
-                    <div className='px-16 py-10'>
-                        <div className='grid grid-cols-4 gap-3'>
-                            <div style={clientLogo}></div>
-                            <div style={clientLogo2}></div>
-                            {/* <div style={clientLogo3}></div> */}
-                            <div style={clientLogo9}></div>
-                            <div  style={clientLogo4}></div>
-                            <div  style={clientLogo5}></div>
-                            <div style={clientLogo6}></div>
-                            <div  style={clientLogo7}></div>
-                            <div style={clientLogo8}></div>
-                           
-                        </div>
-                    </div>    
-                </div>
-
-            <div className='inverse bg-full'>
+            <div>
                 <div className='px-16 pb-20'>
                 <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>What Our Clients Say</h2>
                 <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
