@@ -1,0 +1,20 @@
+.grey-bg{
+    background-color: #ffffff;
+}
+
+.svg-size{
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.bg-full{
+    box-shadow: 0 0 0 100vmax #BDC3C7;
+    clip-path: inset(0 -100vmax);
+}
+
+.inverse{
+    background-color: #BDC3C7 ;
+    color: #2C3E50;
+}

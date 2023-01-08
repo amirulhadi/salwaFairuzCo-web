@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Headbanner';
 import Footer from '../components/Footer'
@@ -7,79 +8,98 @@ import Form from '../components/Form'
 import iconLocation from '../assets/icon/location.svg'
 import iconEmail from '../assets/icon/email.svg'
 import iconPhone_Call from '../assets/icon/phone_call.svg'
+import { db } from '../service/firebase';
+import { collection, addDoc } from '@firebase/firestore'
 
 
 export default function ContactUs () {
+    const [newName, setNewName] = useState("")
+    const [newEmail, setNewEmail] =  useState("")
+    const [newPhoneNo, setNewPhoneNo] = useState("")
+    const [newMessageSubject, setNewMessageSubject] = useState("")
+    const [newMessageText, setNewMessageText] = useState("")
+    const [newMessage, setNewMessage] = useState([]);
+    const messageCollectionRef = collection(db, "contact_message")
+
+    const createMessage = async () => {
+        await addDoc(messageCollectionRef, 
+            {name:newName, email:newEmail, phone_No:newPhoneNo, subject:newMessageSubject, message:newMessageText } 
+        )
+    }
 
     return (
         <>
         <Navbar></Navbar>
         <Banner image={contactHeader} title="CONTACT US" titlerow2="" desc=""></Banner>
-
-        <div className="relative grid grid-cols-2 gap-4 min-h-screen overflow-hidden ">
-        <div className="w-full mt-10 mb-10 p-6 m-auto bg-white shadow-xl shadow-blue-600/40  lg:max-w-xl">
+        <div className='container px-16 mx-auto'>
+        <div className="relative grid grid-cols-4 gap-4 min-h-screen overflow-hidden ">
+        <div className="w-full mt-10 mb-10 p-6 m-auto col-span-3 lg:max-w-xl">
             <h1 className="text-3xl font-semibold uppercase ">
                 Keep in touch with Us
             </h1>
+            <p className='pt-5'>
+            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+            </p>
             <form className="mt-6">
                 <div className="mb-2">
-                    <label>
-                    <span className="text-gray-700">Your name</span>
                     <input
                         type="text"
                         name="name"
                         className="w-full block px-5 py-3 mt-2 bg-gray-200 border-gray-300 rounded-md shadow-sm focus:border-indigo-300
                             focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                        placeholder="John cooks"
+                        placeholder="Name"
+                        onChange={(event) => {
+                            setNewName(event.target.value)
+                        }}
                     />
-                    </label>
                 </div>
                 <div className="mb-2">
-                    <label>
-                    <span className="text-gray-700">Email address</span>
                     <input name="email" type="email"
                         className="block w-full mt-2 px-5 py-3 bg-gray-200 border-gray-300 rounded-md shadow-sm focus:border-indigo-300
                             focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                        placeholder="john.cooks@example.com"
+                        placeholder="Email Address (john.cooks@example.com)"
+                        onChange={(event) => {
+                            setNewEmail(event.target.value)
+                        }}
                         required
+
                     />
-                    </label>
                 </div>
                 <div className="mb-2">
-                    <label>
-                    <span className="text-gray-700">Phone Number</span>
                     <input name="phoneNumber" type="text"
                         className="block w-full mt-2 px-5 py-3 bg-gray-200 border-slate-400 rounded-md shadow-sm focus:border-indigo-300
                             focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                        placeholder="0123456789"
+                        placeholder="Phone Number (0123456789)"
+                        onChange={(event) => {
+                            setNewPhoneNo(event.target.value)
+                        }}
                         required
                     />
-                    </label>
                 </div>
                 <div className="mb-2">
-                    <label>
-                    <span className="text-gray-700">Message Subject</span>
                     <input name="subject" type="text"
                         className="block w-full mt-2 px-5 py-3 bg-gray-200 border-gray-300 rounded-md shadow-sm focus:border-indigo-300
                             focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                        placeholder="Title: My Subject"
+                        placeholder="Message Subject"
+                        onChange={(event) => {
+                            setNewMessageSubject(event.target.value)
+                        }}
                         required
                     />
-                    </label>
                 </div>
                 <div className="mb-2">
-                    <label>
-                    <span class="text-gray-700">Message</span>
-                    <textarea name="message" className="block w-full mt-2 px-5 py-3 bg-gray-200 border-gray-300 rounded-md shadow-sm
-                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" rows="5">
+                    <textarea name="message" placeholder='Message' className="block w-full mt-2 px-5 py-3 bg-gray-200 border-gray-300 rounded-md shadow-sm
+                    focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" rows="5"
+                    onChange={(event) => {
+                        setNewMessageText(event.target.value)
+                    }}>
                     </textarea>
-                    </label>
                 </div>
 
                 <div class="mb-6">
-                    <button type="submit" className="h-10 px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors
-                        duration-150 focus:shadow-outline hover:bg-indigo-800">
-                    Contact Us
+                    <button className="h-10 px-5 text-indigo-100 bg-blue-600 rounded-lg transition-colors
+                        duration-150 focus:shadow-outline hover:bg-blue-800" onClick={createMessage}>
+                        Submit
                     </button>
                 </div>
                 <div></div>
@@ -87,28 +107,30 @@ export default function ContactUs () {
         </div>
 
         <div>
-        <div className="w-full mt-10 p-6  bg-blue-400 shadow-xl shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
-            <h1 className="text-3xl font-semibold uppercase ">
+        <div className="w-full mt-20 p-6 bg-slate-700 shadow-xl rounded-md shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
+            <h1 className="text-3xl font-semibold uppercase text-cyan-50 ">
             Where to Find Us
             </h1>
             <hr className='mt-5'></hr>
-            <div className='pt-10'><img src={iconLocation} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconLocation} style={{display:'inline-block'}} className="pr-5 "
                 alt="location"
                 />30B, Jalan Wawasan 2/4, Bandar Baru Ampang, 68000 Ampang, Selangor
             </div>
 
-            <div className='pt-10'><img src={iconEmail} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconEmail} style={{display:'inline-block'}} className="pr-5"
                     alt="email"/>
                 info@salwafairuzco.com
             </div>
 
-            <div className='pt-10'><img src={iconPhone_Call} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconPhone_Call} style={{display:'inline-block'}} className="pr-5"
                     alt="phonecall"
                     />03-4296 9694
             </div>
         </div>
         </div>
     </div>
+        </div>
+        
 
 <Footer>
 </Footer>
