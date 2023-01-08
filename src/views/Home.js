@@ -17,6 +17,9 @@ import logo7 from '../assets/ClientLogo/logo7.jpg'
 import logo8 from '../assets/ClientLogo/logo8.png'
 import logo9 from '../assets/ClientLogo/logo9.png'
 import Footer from '../components/Footer';
+import review1 from '../assets/Review1.png'
+import review2 from '../assets/Review2.png';
+import review3 from '../assets/Review3.png'
 import homeBanner from "../assets/home_banner.jpg"
 
 
@@ -110,6 +113,9 @@ export default function Home () {
         width: '250px',
         height: '250px',
         backgroundRepeat: 'no-repeat'
+    }
+    const review1_img = {
+        backgroundImage:`url("${review1}")`
     }
     return (
         <>
@@ -269,36 +275,36 @@ export default function Home () {
                 <div className="carousel-inner relative w-full overflow-hidden">
                     <div className="carousel-item active relative float-left w-full">
                     <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                        src={review1}
                         className="block w-full"
                         alt="..."
                     />
-                    <div className="carousel-caption hidden md:block absolute text-center">
+                    {/* <div className="carousel-caption hidden md:block absolute text-center">
                         <h5 className="text-xl">First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                    </div> */}
                     </div>
                     <div className="carousel-item relative float-left w-full">
                     <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                        src={review2}
                         className="block w-full"
                         alt="..."
                     />
-                    <div className="carousel-caption hidden md:block absolute text-center">
+                    {/* <div className="carousel-caption hidden md:block absolute text-center">
                         <h5 className="text-xl">Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    </div> */}
                     </div>
                     <div className="carousel-item relative float-left w-full">
                     <img
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+                        src={review3}
                         className="block w-full"
                         alt="..."
                     />
-                    <div className="carousel-caption hidden md:block absolute text-center">
+                    {/* <div className="carousel-caption hidden md:block absolute text-center">
                         <h5 className="text-xl">Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+                    </div> */}
                     </div>
                 </div>
                 <button

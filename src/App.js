@@ -7,10 +7,11 @@ import ProductSvc from './views/ProductServices'
 import Career from './views/Career';
 import Contact from './views/ContactUs';
 import Bulletin from './views/Bulletin';
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='grey-bg '>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="About" element={<AboutUs/>}/>

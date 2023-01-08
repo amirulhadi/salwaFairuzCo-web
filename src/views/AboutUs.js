@@ -8,6 +8,13 @@ import team1 from '../assets/team1.jpg';
 import team2 from '../assets/team2.jpg';
 import team3 from '../assets/team3.jpg';
 import team4 from '../assets/team4.jpg';
+import team5 from '../assets/team5.jpg';
+import team6 from '../assets/team6.jpg';
+import team7 from '../assets/team7.jpg';
+import team8 from '../assets/team8.jpg';
+import team9 from '../assets/team9.jpg';
+import team10 from '../assets/team10.jpg';
+import team11 from '../assets/team11.jpg';
 import SalwaAbout from '../assets/Salwa_about.jpg'
 import quotesImage from '../assets/quotes_images.jpg'
 import logo1 from '../assets/ClientLogo/logo1.png';
@@ -221,6 +228,41 @@ export default function AboutUs () {
                     </div>
                     <div className='relative bg-gradient-to-r from-black'>
                         <img src={team4} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team5} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team6} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team7} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team8} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team9} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team10} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team11} className='brightness-100 opacity-60' />
                         {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             Name 4</h1> */}
                     </div>

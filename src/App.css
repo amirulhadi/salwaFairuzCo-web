@@ -1,5 +1,5 @@
 .grey-bg{
-    background-color: 	#F8F8F8;
+    background-color: #ffffff;
 }
 
 .svg-size{
@@ -10,11 +10,11 @@
 }
 
 .bg-full{
-    box-shadow: 0 0 0 100vmax #704DB5;
+    box-shadow: 0 0 0 100vmax #BDC3C7;
     clip-path: inset(0 -100vmax);
 }
 
 .inverse{
-    background-color: #704DB5;
-    color: #efefef;
+    background-color: #BDC3C7 ;
+    color: #2C3E50;
 }

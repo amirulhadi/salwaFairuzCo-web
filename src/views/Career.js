@@ -44,7 +44,7 @@ export default function Career () {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-8 pt-5 pb-20'>
+            <div className='grid grid-cols-2 gap-8 pt-5 pb-20 inverse bg-full'>
             <div>
                 <p className='font-bold text-3xl'>Lets Work Together</p>
                 <p className='pt-2 pb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
