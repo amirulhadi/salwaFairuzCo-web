@@ -97,8 +97,8 @@ export default function ContactUs () {
                 </div>
 
                 <div class="mb-6">
-                    <button className="h-10 px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors
-                        duration-150 focus:shadow-outline hover:bg-indigo-800" onClick={createMessage}>
+                    <button className="h-10 px-5 text-indigo-100 bg-blue-600 rounded-lg transition-colors
+                        duration-150 focus:shadow-outline hover:bg-blue-800" onClick={createMessage}>
                         Submit
                     </button>
                 </div>
@@ -107,22 +107,22 @@ export default function ContactUs () {
         </div>
 
         <div>
-        <div className="w-full mt-20 p-6  bg-blue-400 shadow-xl rounded-md shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
-            <h1 className="text-3xl font-semibold uppercase ">
+        <div className="w-full mt-20 p-6 bg-slate-700 shadow-xl rounded-md shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
+            <h1 className="text-3xl font-semibold uppercase text-cyan-50 ">
             Where to Find Us
             </h1>
             <hr className='mt-5'></hr>
-            <div className='pt-10'><img src={iconLocation} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconLocation} style={{display:'inline-block'}} className="pr-5 "
                 alt="location"
                 />30B, Jalan Wawasan 2/4, Bandar Baru Ampang, 68000 Ampang, Selangor
             </div>
 
-            <div className='pt-10'><img src={iconEmail} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconEmail} style={{display:'inline-block'}} className="pr-5"
                     alt="email"/>
                 info@salwafairuzco.com
             </div>
 
-            <div className='pt-10'><img src={iconPhone_Call} style={{display:'inline-block'}} className="pr-5"
+            <div className='pt-10 text-cyan-50'><img src={iconPhone_Call} style={{display:'inline-block'}} className="pr-5"
                     alt="phonecall"
                     />03-4296 9694
             </div>
