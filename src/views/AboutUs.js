@@ -33,16 +33,16 @@ export default function AboutUs () {
     const clientLogo = {
         backgroundImage: `url("${logo1}")`,
         backgroundSize: 'contain',
-        width: '200px',
-        height: '200px',
+        width: '160%',
+        height: '160%',
         backgroundRepeat: 'no-repeat',
         //backgroundPosition: 'center center'
     }
     const clientLogo2 = {
         backgroundImage: `url("${logo2}")`,
         backgroundSize: 'contain',
-        width: '160px',
-        height: '160px',
+        width: '100%',
+        height: '100%',
         backgroundRepeat: 'no-repeat',
         //backgroundPosition: 'center center'
     }
@@ -56,43 +56,43 @@ export default function AboutUs () {
     const clientLogo4 = {
         backgroundImage: `url("${logo4}")`,
         backgroundSize: 'contain',
-        width: '200px',
-        height: '200px',
+        width: '180%',
+        height: '180%',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo5 = {
         backgroundImage: `url("${logo5}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '130%',
+        height: '130%',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo6 = {
         backgroundImage: `url("${logo6}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '120%',
+        height: '120%',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo7 = {
         backgroundImage: `url("${logo7}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '130%',
+        height: '130%',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo8 = {
         backgroundImage: `url("${logo8}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '150%',
+        height: '150%',
         backgroundRepeat: 'no-repeat'
     }
     const clientLogo9 = {
         backgroundImage: `url("${logo9}")`,
         backgroundSize: 'contain',
-        width: '250px',
-        height: '250px',
+        width: '150%',
+        height: '150%',
         backgroundRepeat: 'no-repeat'
     }    
 
@@ -104,10 +104,10 @@ export default function AboutUs () {
             <div className='grid grid-cols-2 gap-4  pt-20 pb-20'>
                 <div className='grid grid-cols-2 gap-4 bg-grey-200'>
                     <div>
-                        <img src={aboutdesc} className="" alt="imageAbout"/>
+                        <img src={aboutdesc} className="max-w-screen max-h-screen" alt="imageAbout"/>
                     </div>
-                    <div className='bg-grey-200 relative'>
-                        <img src={SalwaAbout} className="absolute bottom-0 right-0" alt="imageAbout"/>
+                    <div className='bg-grey-200  relative'>
+                        <img src={SalwaAbout} className="absolute md:sticky md:pt-20 bottom-0 right-0" alt="imageAbout"/>
                     </div>
                     
                 </div>
@@ -136,21 +136,21 @@ export default function AboutUs () {
             <div className='inverse bg-full p-10 mb-20'>
                 <div className='px-2 py-8'>
                     <div className='grid grid-cols-4 gap-4'>
-                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 md:place-items-center backdrop-blur-sm bg-white/20'>
                             <div><h2 className='text-center font-bold text-3xl'>20+</h2></div>
-                            <div><p className='text-center text-xl'>Years Experience</p></div>
+                            <div><p className='text-center text-xl md:text-lg '>Years Experience</p></div>
                         </div>
-                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
                             <div><h2 className='text-center font-bold text-3xl'>35+</h2></div>
-                            <div><p className='text-center text-xl'>Awards Win</p></div>
+                            <div><p className='text-center text-xl md:text-lg'>Awards Win</p></div>
                         </div>
-                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
                             <div><h2 className='text-center font-bold text-3xl'>1750+</h2></div>
-                            <div><p className='text-center text-xl'>Happy Customers</p></div>
+                            <div><p className='text-center text-xl md:text-lg'>Happy Customers</p></div>
                         </div>
-                        <div className='border border-white-200 rounded-md p-10 backdrop-blur-sm bg-white/20'>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
                             <div><h2 className='text-center font-bold text-3xl'>120+</h2></div>
-                            <div><p className='text-center text-xl'>Our Experts Staff</p></div>
+                            <div><p className='text-center text-xl md:text-lg'>Our Experts Staff</p></div>
                         </div>
 
                     </div>
@@ -282,18 +282,18 @@ export default function AboutUs () {
           
 
             <div>
-                    <div className='text-3xl uppercase font-bold text-center pt-10 pb-10'>Our Clients</div>
+                    <div className='text-3xl uppercase font-bold text-center pt-10 pb-5'>Our Clients</div>
                     <div className='px-16 py-10'>
-                        <div className='grid grid-cols-4 gap-3'>
-                            <div style={clientLogo}></div>
-                            <div style={clientLogo2}></div>
+                        <div className='grid grid-cols-4 gap-12'>
+                            <div style={clientLogo} className='pb-20 ' ></div>
+                            <div style={clientLogo2} className='pb-20 md:mt-5 md:ml-8'></div>
                             {/* <div style={clientLogo3}></div> */}
-                            <div style={clientLogo9}></div>
-                            <div  style={clientLogo4}></div>
+                            <div style={clientLogo9} className='pb-20 md:mt-3'></div>
+                            <div  style={clientLogo4} className=''></div>
                             <div  style={clientLogo5}></div>
-                            <div style={clientLogo6}></div>
-                            <div  style={clientLogo7}></div>
-                            <div style={clientLogo8}></div>
+                            <div style={clientLogo6} className='pb-20'></div>
+                            <div  style={clientLogo7} className='pb-20'></div>
+                            <div style={clientLogo8} className='pb-20'></div>
                            
                         </div>
                     </div>    

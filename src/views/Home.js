@@ -122,24 +122,24 @@ export default function Home () {
             <Navbar></Navbar>
             <Banner image={homeBanner} title="Finance" titlerow2="Audit Firm" desc="Lorem Ipsum is simply dummy text of the 
             printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book." buttonName="Get a Quote" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book." buttonName="Get a Quote" class="inline-block px-6 py-2.5 xs:px-3 xs:py-1 sm:px-4 sm:py-1.5 md:px-5 md:py-2  bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
             </Banner>
-            <div className='container px-16 mx-auto'>
+            <div className='container px-16 xs:px-1 sm:px-8 md:px-10 mx-auto'>
             <div >
                 <div className='inverse bg-full pb-10'>
-                <h2 className='text-6xl sm:text-5xl uppercase font-bold text-center pt-10'>Together Far More Better</h2>
-                <p className='text-center'>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                <h2 className='text-6xl xs:text-xl sm:text-4xl md:text-5xl uppercase font-bold text-center pt-10'>Together Far More Better</h2>
+                <p className='xs:text-xs sm:text-sm md:text-base text-center'>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
                 {/* <div className='grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden px-4 py-8'> */}
 
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 mt-20">
+                <div className="grid grid-cols-3 gap-4 mt-20 xs:mt-5 sm:mt-7 md:mt-10">
                     <div className='col-span-2'>
-                        <h2 className='text-4xl font-bold pb-3 '>Accounting Outsourcing</h2>
-                        <p className='text-xl'>Monthly, Quarterly, Half Yearly, and Yearly Accounting Outsourcing Services</p>
+                        <h2 className='text-4xl xs:text-xl sm:text-4xl md:text-5xl font-bold pb-3 '>Accounting Outsourcing</h2>
+                        <p className='text-xl xs:text-xs sm:text-sm md:text-base '>Monthly, Quarterly, Half Yearly, and Yearly Accounting Outsourcing Services</p>
                     </div>
                     <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" className="w-50 h-50 svg-size">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" className="w-50 h-50 xs:w-80 svg-size">
                         <path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 003 3h15a3 3 0 01-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125zM12 9.75a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H12zm-.75-2.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H12a.75.75 0 01-.75-.75zM6 12.75a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5H6zm-.75 3.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75zM6 6.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3A.75.75 0 009 6.75H6z" clip-rule="evenodd" />
                         <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 01-3 0V6.75z" />
                     </svg>
@@ -152,12 +152,12 @@ export default function Home () {
                     </svg>
                     </div>
                     <div className='col-span-2'>
-                        <h2 className='text-4xl font-bold pb-3'>Tax Consultancy</h2>
-                        <p className='text-xl'>Corporate Tax, Personal Tax Compliance, and Planning Outsourcing Services</p>
+                        <h2 className='text-4xl xs:text-xl sm:text-4xl md:text-5xl font-bold pb-3'>Tax Consultancy</h2>
+                        <p className='text-xl xs:text-xs sm:text-sm md:text-base'>Corporate Tax, Personal Tax Compliance, and Planning Outsourcing Services</p>
                     </div>
                     <div className='col-span-2'>
-                        <h2 className='text-4xl font-bold pb-3'>Financial Consultancy</h2>
-                        <p className='text-xl'>Financial Advices on Tax, Planning, Investment and Insurance decisions</p>
+                        <h2 className='text-4xl xs:text-xl sm:text-4xl md:text-5xl font-bold pb-3'>Financial Consultancy</h2>
+                        <p className='text-xl xs:text-xs sm:text-sm md:text-base'>Financial Advices on Tax, Planning, Investment and Insurance decisions</p>
                     </div>
                     <div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" className="w-50 h-50 svg-size">
@@ -170,24 +170,24 @@ export default function Home () {
                         <path fill-rule="evenodd" d="M12 1.5c-1.921 0-3.816.111-5.68.327-1.497.174-2.57 1.46-2.57 2.93V21.75a.75.75 0 001.029.696l3.471-1.388 3.472 1.388a.75.75 0 00.556 0l3.472-1.388 3.471 1.388a.75.75 0 001.029-.696V4.757c0-1.47-1.073-2.756-2.57-2.93A49.255 49.255 0 0012 1.5zm3.53 7.28a.75.75 0 00-1.06-1.06l-6 6a.75.75 0 101.06 1.06l6-6zM8.625 9a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm5.625 3.375a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clip-rule="evenodd" />
                     </svg>
                     </div>   
-                    <div className='col-span-2'>
-                        <h2 className='text-4xl font-bold pb-3'>SST Consultancy</h2>
-                        <p className='text-xl'>Sales and Service Tax Registration, Filing, Implementation and Advice Services</p>
+                    <div className='col-span-2 xs:pb-10'>
+                        <h2 className='text-4xl xs:text-xl sm:text-4xl md:text-5xl font-bold pb-3'>SST Consultancy</h2>
+                        <p className='text-xl xs:text-xs sm:text-sm md:text-base'>Sales and Service Tax Registration, Filing, Implementation and Advice Services</p>
                     </div>
                 </div>
             </div>
 
             <div className='inverse bg-full'>
                 <div className='px-2 py-8'>
-                    <h2 className='text-3xl uppercase font-bold text-center pb-2'>Our Vision</h2>
-                    <p className='text-sm text-center pt-4 px-8'>Lorem Ipsum is simply dummy text of the printing and 
+                    <h2 className='text-3xl xs:text-xl sm:text-4xl md:text-5xl uppercase font-bold text-center pb-2'>Our Vision</h2>
+                    <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left xs:px-0 sm:px-0 text-center pt-4 px-8'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
                     essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
                     containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
                     PageMaker including versions of Lorem Ipsum.</p>
-                    <p className='text-sm text-center pt-4 px-8'>
+                    <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left sm:text-left xs:px-0 sm:px-0  text-center pt-4 px-8'>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -198,14 +198,14 @@ export default function Home () {
                     </p>
                 </div>
             </div>
-            <div
+            {/* <div
                 className='bg-slate-700 text-white bg-center px-2 py-48 mb-10 mt-10'
                 style = {bgImageCover}>
-            </div>
+            </div> */}
 
-            <div className='inverse bg-full'>
-                <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-2'>Meet The Leaders</h2>
-                <p className='text-sm text-center pt-2 px-8 pb-6'>Lorem Ipsum is simply dummy text of the printing and 
+            <div>
+                <h2 className='text-3xl xs:text-xl sm:text-4xl md:text-5xl  uppercase font-bold text-center pt-10 pb-2'>Meet The Leaders</h2>
+                <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left sm:text-left text-center pt-2 px-8 pb-6'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
@@ -214,39 +214,69 @@ export default function Home () {
                     PageMaker including versions of Lorem Ipsum.
                 </p>
                 <div className='px-16 pb-20'>
-                    <div className='grid grid-cols-3 gap-4 h-40 w-30 rounded mb-10 mt-5 pb-10'>
-                        <div className='flex flex-col h-40 w-40'>
-                            <div className='rounded-full h-40 w-30' style={bgP1}></div>
+                    <div className='hidden md:flex grid grid-cols-3 gap-4 rounded mt-5'>
+                        <div className='flex flex-col xs:h-30 xs:w-50 md:h-40 md:w-30'>
+                            <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP1}></div>
+                        </div>
+                        <div className='h-40 w-40 xs:pb-5'>
+                            <div className='rounded-full  xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP2}></div>
                         </div>
                         <div className='h-40 w-40'>
-                            <div className='rounded-full h-15 w-15' style={bgP2}></div>
+                            <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP3}></div>
                         </div>
-                        <div className='h-40 w-40'>
-                            <div className='rounded-full h-40 w-40' style={bgP3}></div>
-                        </div>
-                        <div className='flex flex-col'>
-                            <p className='pb-2'>Dr. Fairuz</p>
+                    </div>
+                    <div className='hidden md:flex grid grid-cols-3 gap-4 rounded mt-5'>
+                        <div className='flex flex-col pr-10'>
+                            <p className='pb-2 pl-5 text-center'>Dr. Fairuz</p>
                             <hr/>
-                            <p className='pt-2 pb-2'>Managing Director</p>
+                            <p className='pt-2 pl-5 pb-2 text-center'>Managing Director</p>
                             
                         </div>
-                        <div className='flex flex-col'>
-                            <p className='pb-2'>Dr. Salwa</p>
+                        <div className='flex flex-col pr-10 mr-8'>
+                            <p className='pb-2 pl-5 text-center'>Dr. Salwa</p>
                             <hr/>
-                            <p className='pt-2 pb-2'>Director</p>
+                            <p className='pt-2 pl-5 pb-2 text-center'>Director</p>
                             
                         </div>
-                        <div className='flex flex-col'>
-                            <p className='pb-2'>Unknown</p>
+                        <div className='flex flex-col pr-10 '>
+                            <p className='pb-2 pl-5 text-center'>Unknown</p>
                             <hr/>
-                            <p className='pt-2 pb-2'>Unknown</p>
+                            <p className='pt-2 pl-5 pb-2 text-center'>Unknown</p>
                             
                         </div>
                     </div>
+                    <div className='md:collapse lg:collapse grid grid-cols-2 gap-0'>
+                        <div className='flex flex-col xs:h-30 xs:w-50 md:h-40 md:w-30'>
+                            <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP1}></div>
+                        </div>
+                        <div className=' flex flex-col'>
+                            <p className='pb-2 px-8 py-10'>Dr. Fairuz</p>
+                            <hr/>
+                            <p className='pt-2 pb-2 px-8 py-5'>Managing Director</p>
+                        </div>
+                        <div className='h-40 w-40 pt-5 pb-5'>
+                            <div className='rounded-full  xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP2}></div>
+                        </div>
+                        <div className='flex flex-col pt-5'>
+                            <p className='pb-2 px-8 py-10'>Dr. Salwa</p>
+                            <hr/>
+                            <p className='pt-2 pb-2 px-8 py-5'>Director</p>
+                        </div>
+                        <div className='h-40 w-40 pt-10 pb-5'>
+                            <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP3}></div>
+                        </div>
+                        <div className='flex flex-col pt-5'>
+                            <p className='pb-2 px-8 py-10'>Unknown</p>
+                            <hr/>
+                            <p className='pt-2 pb-2 px-8 py-5'>Unknown</p>
+                        </div>
+                    </div>
+                
+                  
                 </div>
                 </div>
 
-            <div>
+            <div className='inverse bg-full'>
                 <div className='px-16 pb-20'>
                 <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>What Our Clients Say</h2>
                 <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
