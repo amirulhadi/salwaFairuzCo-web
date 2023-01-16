@@ -101,7 +101,7 @@ export default function AboutUs () {
         <Navbar></Navbar>
         <Banner image={aboutUsHead} title="ABOUT US" titlerow2="" desc=""></Banner>
         <div className='container px-16 mx-auto'>
-            <div className='grid grid-cols-2 gap-4  pt-20 pb-20'>
+            <div className='hidden md:flex grid grid-cols-2 gap-4 pt-20 pb-20'>
                 <div className='grid grid-cols-2 gap-4 bg-grey-200'>
                     <div>
                         <img src={aboutdesc} className="max-w-screen max-h-screen" alt="imageAbout"/>
@@ -132,10 +132,46 @@ export default function AboutUs () {
                     </p>
                 </div>
             </div>
+            {/* for mobile */}
+            <div className='md:collapse lg:collapse grid-cols-1 gap-1 pt-20 pb-20'>
+                <div className='grid grid-cols-1 gap-1 bg-grey-200'>
+                    <div>
+                        <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
+                        <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                            including versions of Lorem Ipsum.
+                        </p>
+                        <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                            including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                    <div className='grid grid-cols-2 gap-2'>
+                        <div>
+                            <img src={aboutdesc} className="max-w-screen max-h-screen" alt="imageAbout"/>
+                        </div>
+                        <div className='bg-grey-200  relative'>
+                            <img src={SalwaAbout} className="absolute sticky pt-5 bottom-0 right-0" alt="imageAbout"/>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+            </div>
 
             <div className='inverse bg-full p-10 mb-20'>
                 <div className='px-2 py-8'>
-                    <div className='grid grid-cols-4 gap-4'>
+                    <div className='grid xxs:grid-cols-1 xs:grid cols-1 sm:grid-cols-2 gap-4 md:grid-cols-4 xs:gap-2'>
                         <div className='border border-white-200 rounded-md p-10 md:pl-5 md:place-items-center backdrop-blur-sm bg-white/20'>
                             <div><h2 className='text-center font-bold text-3xl'>20+</h2></div>
                             <div><p className='text-center text-xl md:text-lg '>Years Experience</p></div>
@@ -157,7 +193,7 @@ export default function AboutUs () {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-4 place-items-center mb-10 pb-10'>
+            <div className='grid md:grid-cols-2 gap-4 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 place-items-center mb-10 pb-10'>
                 <div>
                     <h1 className='text-4xl font-bold italic'>"Our work does make sense only if it is a faithful witness of his time"</h1>
                     <p className='font-light text-end mr-10 opacity-50'>Dr.Fairuz</p>
@@ -166,50 +202,89 @@ export default function AboutUs () {
                     <img src={quotesImage} className="" alt="quotesImage"/>
                 </div>
             </div>
-            
-            {/* <div>
-                <h1 className='text-3xl uppercase font-bold text-center pb-10'>Our Services</h1>
-            </div>
-            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
-                <h1 className='font-bold text-xl pt-8 pb-10'>Accounting Services</h1>
-                <p className='text-l pb-5'>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
-                here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still 
-                in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-                (injected humour and the like).
-                </p>
-                <p className='font-bold' >READ MORE</p>
-            </div>
 
-            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
-                <h1 className='font-bold text-xl pt-8 pb-10'>LLP / PLT Services & Fees</h1>
-                <p className='text-l pb-5'>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
-                here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still 
-                in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-                (injected humour and the like).
-                </p>
-                <p className='font-bold' >READ MORE</p>
-            </div>
-
-            <div className='px-16 pb-10 bg-gray-200/[.60] mb-5'>
-                <h1 className='font-bold text-xl pt-8 pb-10'>Tax Services</h1>
-                <p className='text-l pb-5'>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
-                here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still 
-                in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-                (injected humour and the like).
-                </p>
-                <p className='font-bold' >READ MORE</p>
-            </div> */}
             <div className='inverse bg-full '>
-            <div className='grid grid-cols-2 gap-4 pt-10'>
+            <div className='hidden md:flex lg:flex grid grid-cols-2 gap-12 pt-10'>
+                <div className='gap-0 columns-3 pt-5 pb-10'>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team1} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 1</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team2} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 2</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team3} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 3</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team4} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team5} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team6} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team7} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team8} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team9} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team10} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+                    <div className='relative bg-gradient-to-r from-black'>
+                        <img src={team11} className='brightness-100 opacity-60' />
+                        {/* <h1 className="absolute text-base text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            Name 4</h1> */}
+                    </div>
+            </div>
+            <div className='flex flex-col'>
+                    <h1 className='text-3xl uppercase font-bold pb-5'>Meet The Team</h1>
+                    <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            {/* for mobile */}
+            <div className='md:collapse lg:collapse grid grid-cols-1 gap-1 pt-10'>
+                <div>
+                    <h1 className='text-3xl uppercase font-bold pb-5'>Meet The Team</h1>
+                    <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
                 <div className='gap-0 columns-4 pt-5 pb-10 '>
                     <div className='relative bg-gradient-to-r from-black'>
                         <img src={team1} className='brightness-100 opacity-60' />
@@ -267,24 +342,15 @@ export default function AboutUs () {
                             Name 4</h1> */}
                     </div>
             </div>
-            <div>
-                    <h1 className='text-3xl uppercase font-bold pb-5'>Meet The Team</h1>
-                    <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, 
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                        Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
+
             </div>
             </div>
           
 
             <div>
                     <div className='text-3xl uppercase font-bold text-center pt-10 pb-5'>Our Clients</div>
-                    <div className='px-16 py-10'>
-                        <div className='grid grid-cols-4 gap-12'>
+                    <div className='px-16 py-10 xxs:px-1 xs:px-2 xxs:py-5 xs:py-8'>
+                        <div className='grid grid-cols-4 gap-12 xxs:gap-8'>
                             <div style={clientLogo} className='pb-20 ' ></div>
                             <div style={clientLogo2} className='pb-20 md:mt-5 md:ml-8'></div>
                             {/* <div style={clientLogo3}></div> */}

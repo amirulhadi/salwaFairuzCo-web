@@ -32,7 +32,7 @@ export default function ContactUs () {
         <Navbar></Navbar>
         <Banner image={contactHeader} title="CONTACT US" titlerow2="" desc=""></Banner>
         <div className='container px-16 mx-auto'>
-        <div className="relative grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-4 gap-4 min-h-screen overflow-hidden ">
+        <div className="relative grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4 min-h-screen overflow-hidden ">
         <div className="w-full mt-10 xs:mb-5 sm:mb-5 mb-10 p-6 m-auto col-span-3 lg:max-w-xl">
             <h1 className="text-3xl font-semibold uppercase ">
                 Keep in touch with Us
@@ -96,7 +96,7 @@ export default function ContactUs () {
                     </textarea>
                 </div>
 
-                <div class="md:mb-6">
+                <div class="">
                     <button className="h-10 px-5 text-indigo-100 bg-blue-600 rounded-lg transition-colors
                         duration-150 focus:shadow-outline hover:bg-blue-800" onClick={createMessage}>
                         Submit
@@ -107,7 +107,7 @@ export default function ContactUs () {
         </div>
 
         <div>
-        <div className="w-full xs:mt-5 sm:mt-5 xs:mb-10 sm:mb-10 md:mt-20 p-6 bg-slate-700 shadow-xl rounded-md shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
+        <div className="w-full xxs:mb-5 xs:mt-5 sm:mt-5 xs:mb-10 sm:mb-10 md:mt-5 lg:mt-20 p-6 bg-slate-700 shadow-xl rounded-md shadow-blue-600/40  lg:max-w-xl relative flex flex-col justify-center ">
             <h1 className="text-3xl font-semibold uppercase text-cyan-50 ">
             Where to Find Us
             </h1>

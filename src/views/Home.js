@@ -214,7 +214,7 @@ export default function Home () {
                     PageMaker including versions of Lorem Ipsum.
                 </p>
                 <div className='px-16 pb-20'>
-                    <div className='hidden md:flex grid grid-cols-3 gap-4 rounded mt-5'>
+                    <div className='hidden md:flex lg:grid grid grid-cols-3 gap-4 rounded mt-5'>
                         <div className='flex flex-col xs:h-30 xs:w-50 md:h-40 md:w-30'>
                             <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP1}></div>
                         </div>
@@ -225,7 +225,7 @@ export default function Home () {
                             <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP3}></div>
                         </div>
                     </div>
-                    <div className='hidden md:flex grid grid-cols-3 gap-4 rounded mt-5'>
+                    <div className='hidden md:flex lg:grid grid grid-cols-3 gap-4 rounded mt-5'>
                         <div className='flex flex-col pr-10'>
                             <p className='pb-2 pl-5 text-center'>Dr. Fairuz</p>
                             <hr/>
@@ -245,7 +245,7 @@ export default function Home () {
                             
                         </div>
                     </div>
-                    <div className='md:collapse lg:collapse grid grid-cols-2 gap-0'>
+                    <div className='md:collapse lg:collapse grid grid-cols-2 xxs:grid-cols-1 gap-0'>
                         <div className='flex flex-col xs:h-30 xs:w-50 md:h-40 md:w-30'>
                             <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP1}></div>
                         </div>

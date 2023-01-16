@@ -5,7 +5,7 @@ export default function PackageLLP () {
     return (
         <>
         <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:gap-4 w-auto h-auto'>
-            <div className='xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
                 <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>LLP / PLT Services and Fees</p>
                     <p className='p-5 pb-0 font-bold'>Incorporation of LLP</p>
                     <div className='flex flex-row items-center justify-between'>
@@ -15,7 +15,7 @@ export default function PackageLLP () {
                     <p className='italic pl-5'>Inclusive of Company Profile, LLP Partner Agreement, Company Chop, Opening of UOB Current Bank Account & LLP Incorporation Fees.</p>
             </div>
 
-            <div className='xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
                 <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>LLP Services Yearly Package</p>
                     <div className='flex flex-row items-center justify-between'>
                     <CheckIcon className="ml-5 h-5 w-5 text-blue-500"/>
@@ -61,7 +61,7 @@ export default function PackageLLP () {
 
 
 
-            <div className='xs:mb-5 sm:mb-5 w-30 h-auto pb-20 rounded-md bg-slate-100'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-auto pb-20 rounded-md bg-slate-100'>
             <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>Àla Carte LLP/PLT Services</p>
                 <p className='p-5 pb-0 font-bold'>LLP Yearly Package</p>
                 <div className='flex flex-row items-center justify-between'>

@@ -5,7 +5,7 @@ export default function Package () {
     return (
         <>
         <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:gap-4 w-auto h-auto'>
-            <div className='xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100'>
                 <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>Monthly Accounting Fees</p>
                     <p className='p-5 pb-0 font-bold'> For a sales turnover of RM 400,000.00 and above</p>
                     <div className='flex flex-row items-center justify-between'>
@@ -51,7 +51,7 @@ export default function Package () {
                     </div>
 
             </div>
-            <div className='xs:mb-5 sm:mb-5 w-30 h-80 rounded-md bg-slate-100'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-80 rounded-md bg-slate-100'>
             <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>Yearly Accounting Fees</p>
                 <p className='p-5 pb-0 font-bold'>For a sales turnover per annum from RM 50,000.00 to RM 399,999.99.</p>
                 <div className='flex flex-row items-center justify-between'>
@@ -59,7 +59,7 @@ export default function Package () {
                 <p className='pr-5 pl-5 flex flex-1'>Range from RM 800.00 (dormant) – RM 2,800.00 per annum </p>
                 </div>
             </div>
-            <div className='xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100 pb-10'>
+            <div className='xxs:mb-5 xs:mb-5 sm:mb-5 w-30 h-auto rounded-md bg-slate-100 pb-10'>
             <p className='p-5 text-center bg-blue-500 w-auto h-auto rounded-md rounded-b-none text-white uppercase'>A La Carte Accounting Fees</p>
                 <p className='p-5 pb-0 font-bold'>Cash Flows Projections</p>
                 <div className='flex flex-row items-center justify-between'>
