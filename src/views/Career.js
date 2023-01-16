@@ -19,7 +19,7 @@ export default function Career () {
                     <h2 className='text-4xl text-center font-bold uppercase'>Expand Your Career With Us</h2>
                 </div>
             </div>
-            <div className='grid grid-cols-2 gap-8 pt-5 pb-20'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 pt-5 pb-20'>
 
                 <div className='bg-grey-200'>
                     <img src={careerDesc} alt="imageAbout" className="shadow-md rounded-md "/>
@@ -44,7 +44,7 @@ export default function Career () {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-8 pt-5 pb-20 inverse bg-full'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 pt-5 pb-20 inverse bg-full'>
             <div>
                 <p className='font-bold text-3xl'>Lets Work Together</p>
                 <p className='pt-2 pb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
