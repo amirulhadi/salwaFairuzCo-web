@@ -56,7 +56,7 @@ export default function ProductServices () {
         <div className='container px-16 mx-auto'>
             
         <div>
-            <div className='grid md:grid-cols-2 gap-4 pt-10 sm:grid-cols-1'>
+            <div className='grid grid-cols-1 gap-4 pt-10 sm:grid-cols-1 md:grid-cols-2'>
                 <div>
                     <h2 className='text-3xl uppercase font-bold pb-5'>We offer a wide range of services and provide complete client satisfaction</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
