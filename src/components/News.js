@@ -27,7 +27,7 @@ export default function News ({bulletin, loading}) {
     }, ['desc'])
     return (
         <>
-            <div class="grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 sm:place-items-center md:place-items-stretch">
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 place-items-center md:place-items-stretch">
                 {
                     listbulletin.map(news => {
                         return(
