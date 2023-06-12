@@ -21,6 +21,8 @@ import review1 from '../assets/Review1.png'
 import review2 from '../assets/Review2.png';
 import review3 from '../assets/Review3.png'
 import homeBanner from "../assets/home_banner.jpg"
+import homeLanding from '../assets/home_landing.jpg'
+import goalsCover from '../assets/goals.jpg'
 
 
 export default function Home () {
@@ -120,15 +122,18 @@ export default function Home () {
     return (
         <>
             <Navbar></Navbar>
-            <Banner image={homeBanner} title="Finance" titlerow2="Audit Firm" desc="Lorem Ipsum is simply dummy text of the 
-            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book." buttonName="Get a Quote" class="inline-block px-6 py-2.5 xs:px-3 xs:py-1 sm:px-4 sm:py-1.5 md:px-5 md:py-2  bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+            <Banner image={homeLanding} title="Welcome" titlerow2="Salwa,Fairuz & Co." desc="Chartered Accountant & SQL 
+            Accounting / Payroll authorised dealer & Corporate secretarial & Training">
             </Banner>
             <div className='container px-1 sm:px-8 mx-auto'>
             <div >
-                <div className='inverse bg-full pb-10'>
+                <div className=' pb-10'>
                 <h2 className='text-xl sm:text-4xl uppercase font-bold text-center pt-10'>Together Far More Better</h2>
-                <p className='text-xs sm:text-sm text-center'>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                <p className='text-sm sm:text-sm text-center'>At Salwa, Fairuz & Co., we understand that every 
+                financial decision matters, no matter how big or small. That is why we are here, ready to provide you with 
+                the expertise, guidance, and support you need to make informed choices and build a strong financial legacy.
+                Join us on this remarkable journey, and let us help you write your financial success story, one number at a 
+                time.</p>
                 {/* <div className='grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden px-4 py-8'> */}
 
                 </div>
@@ -137,10 +142,11 @@ export default function Home () {
                     <div className='grid grid-cols-2 gap-4'>
                         <div>
                             <h2 className='text-xl sm:text-4xl font-bold pb-3 sm:pt-5 sm:mt-5 '>Accounting Outsourcing</h2>
+                            <hr class="w-60 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                             <p className='text-xs sm:text-sm'>Monthly, Quarterly, Half Yearly, and Yearly Accounting Outsourcing Services</p>
                         </div>
                         <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="currentColor" className="w-50 h-50 svg-size">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="#040720" className="w-50 h-50 svg-size">
                             <path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 003 3h15a3 3 0 01-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125zM12 9.75a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H12zm-.75-2.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H12a.75.75 0 01-.75-.75zM6 12.75a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5H6zm-.75 3.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75zM6 6.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3A.75.75 0 009 6.75H6z" clip-rule="evenodd" />
                             <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 01-3 0V6.75z" />
                         </svg>
@@ -156,12 +162,14 @@ export default function Home () {
                         </div>
                         <div>
                             <h2 className='text-xl sm:text-4xl font-bold pb-3 sm:pt-5 sm:mt-5 '>Tax Consultancy</h2>
+                            <hr class="w-60 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                             <p className='text-xs sm:text-sm'>Corporate Tax, Personal Tax Compliance, and Planning Outsourcing Services</p>
                         </div>
                     </div>
                     <div className='grid grid-cols-2 gap-4'>
                         <div>
                             <h2 className='text-xl sm:text-4xl font-bold pb-3 sm:pt-5 sm:mt-5'>Financial Consultancy</h2>
+                            <hr class="w-60 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                             <p className='text-xs sm:text-sm'>Financial Advices on Tax, Planning, Investment and Insurance decisions</p>
                         </div>
                         <div>
@@ -179,6 +187,7 @@ export default function Home () {
                         </div>   
                         <div>
                             <h2 className='text-xl sm:text-4xl font-bold pb-3 sm:pt-5 sm:mt-5'>SST Consultancy</h2>
+                            <hr class="w-60 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                             <p className='text-xs sm:text-sm'>Sales and Service Tax Registration, Filing, Implementation and Advice Services</p>
                         </div>
                     </div>
@@ -188,33 +197,66 @@ export default function Home () {
                 </div>
             </div>
 
-            <div className='inverse bg-full'>
+            <div className='flex flex-wrap -mb-4' style={{backgroundImage: `linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url("${goalsCover}")`, backgroundSize: 'cover', width: 'auto', backgroundRepeat: 'no-repeat'}}>
+            {/* <div class="w-1/3 mb-4 bg-gray-400 h-12"></div> */}
+                <div class="block w-1/3 mb-4  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Goals</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                </div>
+                <div class="w-1/3 h-12"></div>
+                <div class="w-1/3 h-12"></div>
+                <div class="w-1/3 h-12"></div> 
+                <div class="block w-1/3 mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Vision</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">To be the leading provider of innovative 
+                    and trusted accounting solutions, empowering businesses to thrive in the dynamic and ever-evolving 
+                    financial landscape.</p>
+                </div>
+                <div class="w-1/3  h-5"></div>
+                <div class="w-1/3  h-5"></div>
+                <div class="w-1/3  h-5"></div>
+                <div class="block w-1/3  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Mission</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">To provide exceptional accounting and financial services that empower our clients to make informed decisions, achieve their business goals, and thrive in a rapidly changing financial landscape.</p>
+                </div>
+               
+                 
+            </div>
+
+            <div className='p-10 mb-20'>
                 <div className='px-2 py-8'>
-                    <h2 className='text-3xl xs:text-xl sm:text-4xl md:text-5xl uppercase font-bold text-center pb-2'>Our Vision</h2>
-                    <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left xs:px-0 sm:px-0 text-center pt-4 px-8'>Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-                    PageMaker including versions of Lorem Ipsum.</p>
-                    <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left sm:text-left xs:px-0 sm:px-0  text-center pt-4 px-8'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+                <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>Solution Provided</h2>
+                    <div className='grid xxs:grid-cols-1 xs:grid cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3 xs:gap-2'>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 md:place-items-center backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>Accounting</h2></div>
+                            <div><p className='text-center text-xl md:text-lg '>Accounting</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>Advisory</h2></div>
+                            <div><p className='text-center text-xl md:text-lg'>Entrepreneurship & Management</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>Company Secretaries</h2></div>
+                            <div><p className='text-center text-xl md:text-lg'>Company Secretaries Service</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>Research</h2></div>
+                            <div><p className='text-center text-xl md:text-lg'>Business Research</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>SST</h2></div>
+                            <div><p className='text-center text-xl md:text-lg'>Sales & Service Tax</p></div>
+                        </div>
+                        <div className='border border-white-200 rounded-md p-10 md:pl-5 backdrop-blur-sm bg-white/20'>
+                            <div><h2 className='text-center font-bold text-3xl'>Tax Agent</h2></div>
+                            <div><p className='text-center text-xl md:text-lg'>Tax Management</p></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            {/* <div
-                className='bg-slate-700 text-white bg-center px-2 py-48 mb-10 mt-10'
-                style = {bgImageCover}>
-            </div> */}
 
-            <div>
+            {/* <div>
                 <h2 className='text-3xl xs:text-xl sm:text-4xl md:text-5xl  uppercase font-bold text-center pt-10 pb-2'>Meet The Leaders</h2>
                 <p className='text-sm xs:text-xs sm:text-sm md:text-base xs:text-left sm:text-left text-center pt-2 px-8 pb-6'>Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -225,18 +267,15 @@ export default function Home () {
                     PageMaker including versions of Lorem Ipsum.
                 </p>
                 <div className='px-16 pb-20'>
-                    <div className='hidden md:flex lg:grid grid grid-cols-3 gap-4 rounded mt-5'>
+                    <div className='hidden md:flex lg:grid grid grid-cols-2 gap-4 rounded mt-5'>
                         <div className='flex flex-col xs:h-30 xs:w-50 md:h-40 md:w-30'>
                             <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP1}></div>
                         </div>
                         <div className='h-40 w-40 xs:pb-5'>
                             <div className='rounded-full  xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP2}></div>
                         </div>
-                        <div className='h-40 w-40'>
-                            <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP3}></div>
-                        </div>
                     </div>
-                    <div className='hidden md:flex lg:grid grid grid-cols-3 gap-4 rounded mt-5'>
+                    <div className='hidden md:flex lg:grid grid grid-cols-2 gap-4 rounded mt-5'>
                         <div className='flex flex-col pr-10'>
                             <p className='pb-2 pl-5 text-center'>Dr. Fairuz</p>
                             <hr/>
@@ -247,12 +286,6 @@ export default function Home () {
                             <p className='pb-2 pl-5 text-center'>Dr. Salwa</p>
                             <hr/>
                             <p className='pt-2 pl-5 pb-2 text-center'>Director</p>
-                            
-                        </div>
-                        <div className='flex flex-col pr-10 '>
-                            <p className='pb-2 pl-5 text-center'>Unknown</p>
-                            <hr/>
-                            <p className='pt-2 pl-5 pb-2 text-center'>Unknown</p>
                             
                         </div>
                     </div>
@@ -276,20 +309,15 @@ export default function Home () {
                         <div className='h-40 w-40 pt-10 pb-5'>
                             <div className='rounded-full xs:h-30 xs:w-50 md:h-40 md:w-30' style={bgP3}></div>
                         </div>
-                        <div className='flex flex-col pt-5'>
-                            <p className='pb-2 px-8 py-10'>Unknown</p>
-                            <hr/>
-                            <p className='pt-2 pb-2 px-8 py-5'>Unknown</p>
-                        </div>
                     </div>
                 
                   
                 </div>
-                </div>
+                </div> */}
 
             <div className='inverse bg-full'>
-                <div className='px-16 pb-20'>
-                <h2 className='text-3xl uppercase font-bold text-center pt-10 pb-10'>What Our Clients Say</h2>
+                <div className='px-16 pb-10'>
+                <h2 className='text-3xl uppercase font-bold text-center pt-10'>What Our Clients Say</h2>
                 <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
                 <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                     <button
@@ -317,7 +345,7 @@ export default function Home () {
                     <div className="carousel-item active relative float-left w-full">
                     <img
                         src={review1}
-                        className="block w-full"
+                        className="block w-full slider-resize"
                         alt="..."
                     />
                     {/* <div className="carousel-caption hidden md:block absolute text-center">
@@ -328,7 +356,7 @@ export default function Home () {
                     <div className="carousel-item relative float-left w-full">
                     <img
                         src={review2}
-                        className="block w-full"
+                        className="block w-full slider-resize"
                         alt="..."
                     />
                     {/* <div className="carousel-caption hidden md:block absolute text-center">
@@ -339,7 +367,7 @@ export default function Home () {
                     <div className="carousel-item relative float-left w-full">
                     <img
                         src={review3}
-                        className="block w-full"
+                        className="block w-full slider-resize"
                         alt="..."
                     />
                     {/* <div className="carousel-caption hidden md:block absolute text-center">

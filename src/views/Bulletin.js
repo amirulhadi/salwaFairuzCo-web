@@ -9,6 +9,7 @@ import LatestNews from '../components/LatestNews'
 import { db } from '../service/firebase';
 import { collection, getDocs } from '@firebase/firestore'
 import Pagination from '../components/Pagination';
+import bulletinCover from '../assets/bulletin_img.jpg'
 
 export default function Bulletin () {   
     const [posts, setPosts] = useState([]);
@@ -50,7 +51,7 @@ export default function Bulletin () {
     return (
         <>
         <Navbar></Navbar>
-        <Banner image={''} title="BULLETIN" titlerow2="" desc=""></Banner>
+        <Banner image={bulletinCover} title="BULLETIN" titlerow2="" desc=""></Banner>
 
         <div className='container px-16 mx-auto'>
 

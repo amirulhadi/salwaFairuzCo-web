@@ -25,32 +25,35 @@ export default function Career () {
                     <img src={careerDesc} alt="imageAbout" className="shadow-md rounded-md "/>
                 </div>
                     <div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                    embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
-                    predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary
-                    of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
-                    which looks reasonable.
+                    <p>Welcome to Salwa, Fairuz & Co. Where Innovation Meets Opportunity!
+                        Are you ready to be part of something extraordinary? Look no further! 
+                        At Salwa, Fairuz & Co., we're revolutionizing the firm landscape and are on the lookout for 
+                        exceptional talent like you. Join us in our mission to [briefly mention the mission or vision].
                     </p>
-                    <p className='font-bold pt-8'>Global Exposure</p>
-                    <p className='pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p className='font-bold pt-8'>Collaborative Environment</p>
+                    <p className='pt-3'>We believe in the power of collaboration and teamwork. 
+                        At Salwa, Fairuz & Co. , you'll be part of a dynamic and diverse group of individuals who share a 
+                        common passion for excellence. Our open and inclusive culture ensures that everyone's voice is 
+                        heard and valued.</p>
                     <p className='font-bold pt-8'>Work-Life Balance</p>
-                    <p className='pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                    1500s</p>
-                    <p className='font-bold pt-8'>Competitive</p>
-                    <p className='pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p className='pt-3'>We understand the importance of maintaining a healthy work-life balance. 
+                        At Salwa, Fairuz & Co, we strive to create an environment that promotes well-being and supports your 
+                        personal and professional commitments. Flexible work hours, remote work options, and a range of 
+                        employee benefits ensure that you can thrive both inside and outside of work.</p>
+                    <p className='font-bold pt-8'>Career Growth</p>
+                    <p className='pt-3'>We are committed to your professional growth and development. We offer comprehensive 
+                        training programs, mentorship opportunities, and clear career paths that will enable you to chart
+                         your course towards success. Your ambitions and aspirations are important to us, and we'll provide 
+                         the support you need to achieve them.</p>
                 </div>
             </div>
 
             <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 pt-5 pb-20 inverse bg-full'>
             <div>
                 <p className='font-bold text-3xl'>Lets Work Together</p>
-                <p className='pt-2 pb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p className='pt-2 pb-10'>Join us in making a difference. At Salwa, Fairuz & Co., your work will have a tangible 
+                    impact on our industry and the lives of our customers. Be part of something meaningful and leave your 
+                    mark on the world.</p>
 
                 <p className='mb-5'>Oppotunities within SalwaFairuz.Co</p>
                 <ul className='list-disc'>
@@ -62,7 +65,10 @@ export default function Career () {
                     <li>Sales and Marketing</li>
                     <li>Operations</li>
                 </ul>
-
+                <p className='pt-2 pb-10'>Ready to embark on an exciting journey with Salwa, Fairuz & Co.? 
+                We're looking for talented individuals who are passionate, driven, and eager to make a difference.
+                Join us and be part of a team that is shaping the future of the firm. 
+                Check out our current openings and submit your application today!</p>
                 <p className='mt-5'>Kindly contact our general phone number +603-4296 9694 (Ms. Siti) or email us at <a href="mailto:name@email.com">hr@salwafairuz.com</a> </p>
             </div>
             <div>

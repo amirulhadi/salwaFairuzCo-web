@@ -114,21 +114,26 @@ export default function AboutUs () {
                 
                 <div>
                     <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
-                    <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                        including versions of Lorem Ipsum.
+                    <p className='pt-8'>It all began with a vision: to provide exceptional accounting services that empower 
+                        businesses and individuals to achieve their financial goals. Our founders, Dr. Fairuz, brought 
+                        their expertise and passion for numbers together, laying the foundation for what would soon become a 
+                        trusted name in the industry. In our early years, we focused on serving local businesses in Ampanng. Our 
+                        dedication to delivering personalized attention and customized solutions quickly earned us a reputation 
+                        for excellence. As our clientele grew, so did our team of talented professionals, each bringing unique 
+                        skills and perspectives to the table.
                     </p>
-                    <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                        including versions of Lorem Ipsum.
+                    <p className='pt-8'>
+                        Driven by a desire to expand our reach and cater to a broader range of clients, we strategically expanded 
+                        our services and geographic footprint. With each milestone, we gained valuable experience and honed our 
+                        expertise across various industries and sectors. Over the years, we have weathered economic storms, 
+                        embraced technological advancements, and adapted to the ever-evolving accounting landscape. Our ability 
+                        to navigate challenges and stay ahead of industry trends has been instrumental in our sustained success.
+                    </p>
+                    <p className='pt-8'>
+                        As we look toward the future, we remain dedicated to staying at the forefront of the industry, 
+                        continually enhancing our capabilities, and embracing emerging technologies. Our goal is to continue 
+                        empowering our clients to navigate the complex financial landscape with confidence and achieve their 
+                        long-term goals.
                     </p>
                 </div>
             </div>
@@ -137,22 +142,27 @@ export default function AboutUs () {
                 <div className='grid grid-cols-1 gap-1 bg-grey-200'>
                     <div>
                         <h1 className='font-bold text-4xl'>SalwaFairuz.co</h1>
-                        <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                            including versions of Lorem Ipsum.
-                        </p>
-                        <p className='pt-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                            including versions of Lorem Ipsum.
-                        </p>
+                        <p className='pt-8'>It all began with a vision: to provide exceptional accounting services that empower 
+                        businesses and individuals to achieve their financial goals. Our founders, Dr. Fairuz, brought 
+                        their expertise and passion for numbers together, laying the foundation for what would soon become a 
+                        trusted name in the industry. In our early years, we focused on serving local businesses in Ampanng. Our 
+                        dedication to delivering personalized attention and customized solutions quickly earned us a reputation 
+                        for excellence. As our clientele grew, so did our team of talented professionals, each bringing unique 
+                        skills and perspectives to the table.
+                    </p>
+                    <p className='pt-8'>
+                        Driven by a desire to expand our reach and cater to a broader range of clients, we strategically expanded 
+                        our services and geographic footprint. With each milestone, we gained valuable experience and honed our 
+                        expertise across various industries and sectors. Over the years, we have weathered economic storms, 
+                        embraced technological advancements, and adapted to the ever-evolving accounting landscape. Our ability 
+                        to navigate challenges and stay ahead of industry trends has been instrumental in our sustained success.
+                    </p>
+                    <p className='pt-8'>
+                        As we look toward the future, we remain dedicated to staying at the forefront of the industry, 
+                        continually enhancing our capabilities, and embracing emerging technologies. Our goal is to continue 
+                        empowering our clients to navigate the complex financial landscape with confidence and achieve their 
+                        long-term goals.
+                    </p>
                     </div>
                     <div className='grid grid-cols-2 gap-2'>
                         <div>
@@ -264,26 +274,42 @@ export default function AboutUs () {
             </div>
             <div className='flex flex-col'>
                     <h1 className='text-3xl uppercase font-bold pb-5'>Meet The Team</h1>
-                    <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, 
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className='mb-10'>At Salwa, Fairuz & Co., we take pride in delivering top-notch financial services to our valued 
+                            clients. Behind our success lies a team of dedicated accounting professionals who excel in their 
+                            respective fields.Together, they form a cohesive unit that is committed to excellence, integrity, and client 
+                            satisfaction. At Salwa, Fairuz & Co., we believe that our people are our greatest 
+                            asset, and we are confident that their expertise and dedication will surpass your expectations.
+                            Whether you require tax planning, bookkeeping services, financial analysis, or any other 
+                            accounting-related assistance, our team is here to support you every step of the way. \
+                            Trust us to handle your financial matters with precision, confidentiality, and the utmost 
+                            professionalism.</p>
+                        
+                        <div>
+                            <p>
+                            Contact us today to discover how our exceptional accounting team can help your business thrive.
+                            </p>
+                        </div>
                 </div>
             </div>
             {/* for mobile */}
             <div className='md:collapse lg:collapse grid grid-cols-1 gap-1 pt-10'>
                 <div>
                     <h1 className='text-3xl uppercase font-bold pb-5'>Meet The Team</h1>
-                    <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, 
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className='mb-10'>At Salwa, Fairuz & Co., we take pride in delivering top-notch financial services to our valued 
+                            clients. Behind our success lies a team of dedicated accounting professionals who excel in their 
+                            respective fields.Together, they form a cohesive unit that is committed to excellence, integrity, and client 
+                            satisfaction. At Salwa, Fairuz & Co., we believe that our people are our greatest 
+                            asset, and we are confident that their expertise and dedication will surpass your expectations.
+                            Whether you require tax planning, bookkeeping services, financial analysis, or any other 
+                            accounting-related assistance, our team is here to support you every step of the way. \
+                            Trust us to handle your financial matters with precision, confidentiality, and the utmost 
+                            professionalism.</p>
+                        
+                        <div>
+                            <p>
+                            Contact us today to discover how our exceptional accounting team can help your business thrive.
+                            </p>
+                        </div>
                 </div>
                 <div className='gap-0 columns-4 pt-5 pb-10 '>
                     <div className='relative bg-gradient-to-r from-black'>
