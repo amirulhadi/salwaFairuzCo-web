@@ -14,10 +14,10 @@ function Banner (props) {
             <div
                 className='bg-slate-700 text-white'
                 style = {backgroundImageStyle}>
-                <div className='bg-gradient-to-r from-black px-8 py-10 sm:py-20'>
-                <div className='max-w-max sm:max-w-xl sm:max-h-screen pb-5 sm:pb-20'>
-                    <h2 className='text-xl sm:text-6xl uppercase font-bold'>{props.title}</h2>
-                    <h2 className='text-xl sm:text-6xl uppercase sm:pb-16 pb-5'>{props.titlerow2}</h2>
+                <div className='bg-gradient-to-r from-black px-8 py-10 sm:py-20 sm:pb-10'>
+                <div className='max-w-max sm:max-w-xl sm:max-h-screen pb-5 sm:pb-10'>
+                    {/* <h2 className='text-xl sm:text-6xl uppercase '>{props.title}</h2> */}
+                    <h2 className='text-xl sm:text-6xl uppercase font-bold sm:pb-10'>{props.titlerow2}</h2>
                     <p className='text-xs sm:text-lg'>{props.desc}</p>
                 </div>
                 <Button class={props.class} buttonName={props.buttonName} />

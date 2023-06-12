@@ -38,7 +38,9 @@ export default function ContactUs () {
                 Keep in touch with Us
             </h1>
             <p className='pt-5'>
-            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                We're thrilled that you're interested in reaching out to us. Whether you have a question, a partnership 
+                opportunity, or simply want to say hello, we're here to listen and collaborate. Let's join forces and create 
+                something amazing together!
             </p>
             <form className="mt-6">
                 <div className="mb-2">
