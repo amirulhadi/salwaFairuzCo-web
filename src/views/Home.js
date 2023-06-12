@@ -22,6 +22,7 @@ import review2 from '../assets/Review2.png';
 import review3 from '../assets/Review3.png'
 import homeBanner from "../assets/home_banner.jpg"
 import homeLanding from '../assets/home_landing.jpg'
+import goalsCover from '../assets/goals.jpg'
 
 
 export default function Home () {
@@ -196,9 +197,9 @@ export default function Home () {
                 </div>
             </div>
 
-            <div className='inverse bg-full flex flex-wrap -mb-4'>
+            <div className='flex flex-wrap -mb-4' style={{backgroundImage: `linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url("${goalsCover}")`, backgroundSize: 'cover', width: 'auto', backgroundRepeat: 'no-repeat'}}>
             {/* <div class="w-1/3 mb-4 bg-gray-400 h-12"></div> */}
-                <div class="block w-1/3 mb-4 mt-4 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block w-1/3 mb-4  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Goals</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                 </div>
@@ -207,15 +208,16 @@ export default function Home () {
                 <div class="w-1/3 h-12"></div> 
                 <div class="block w-1/3 mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Vision</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">To become a company firm which provide variety of accounting services for our client which can gain a win win situation 
-                    in order to let customer to had a better business development by performing to solve client’s accounting issue effectively in long term goals.</p>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">To be the leading provider of innovative 
+                    and trusted accounting solutions, empowering businesses to thrive in the dynamic and ever-evolving 
+                    financial landscape.</p>
                 </div>
                 <div class="w-1/3  h-5"></div>
                 <div class="w-1/3  h-5"></div>
                 <div class="w-1/3  h-5"></div>
-                <div class="block w-1/3 mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block w-1/3  p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Our Mission</h5>
-                    <p class="font-normal text-gray-700 dark:text-gray-400">To provide the qualified services for our customers in order to help them achieving their business stability and improve business relationship between each others.</p>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">To provide exceptional accounting and financial services that empower our clients to make informed decisions, achieve their business goals, and thrive in a rapidly changing financial landscape.</p>
                 </div>
                
                  
